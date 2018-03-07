@@ -16,15 +16,13 @@ public class AlunoService {
 	public void salvar(Aluno aluno)
 	{
 	    alunos.add(aluno);
-	}
-	
+	}	
 
 	public List <Aluno> getAlunos()
 	{
 		
 		return alunos;
 		
-	}
-	
+	}	
 	
 }
